@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/productes"
+    tools:context=".ProducteActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="214dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/aladin"
+        android:text="PRODUCTES"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/CrearProducteButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="283dp"
+        android:text="Crear"
+        android:background="@drawable/button_states"
+        android:rotationX="25"
+        android:textColor="@color/white"
+
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <Button
+        android:id="@+id/llistar_id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="283dp"
+        android:background="@drawable/button_states"
+        android:rotationX="25"
+        android:text="Llistar"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "222514189321",
+    "project_id": "iserve-a3e81",
+    "storage_bucket": "iserve-a3e81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222514189321:android:c4cf4ee1a3d2e5be2e54d8",
+        "android_client_info": {
+          "package_name": "com.halbert.iserve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222514189321-7o156crddu0c2d6ph6i0e9ocoe0qbkf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSXdq0bFE6syh-zqPohcNRnXjCvpDRsZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222514189321-7o156crddu0c2d6ph6i0e9ocoe0qbkf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
